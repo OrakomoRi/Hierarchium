@@ -1,6 +1,5 @@
 <?php
 
-require_once '../app/models/User.php';
 require_once '../app/services/AuthService.php';
 require_once 'BaseController.php';
 

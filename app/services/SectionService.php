@@ -97,4 +97,14 @@ class SectionService
 	{
 		return $this->sectionRepository->deleteSection($id);
 	}
+
+	/**
+     * Retrieve a section by its ID
+     * @param string $id - ID of the section to retrieve
+     * @return array|null - Section data or null if not found
+     */
+    public function getSectionById($id)
+    {
+        return $this->sectionRepository->getSectionById($id);
+    }
 }

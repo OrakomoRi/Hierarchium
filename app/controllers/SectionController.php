@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../services/SectionService.php';
+require_once '../app/services/SectionService.php';
 
 class SectionController
 {

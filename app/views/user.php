@@ -7,13 +7,13 @@
 	<link rel="icon" type="image/svg" href="/images/svg/juice.svg">
 	<title>User page</title>
 
-	<link rel="stylesheet" href="/css/min/reset.min.css">
-	<link rel="stylesheet" href="/css/min/variables.min.css">
-	<link rel="stylesheet" href="/css/min/notification.min.css">
-	<link rel="stylesheet" href="/css/min/user.min.css">
+	<link rel="stylesheet" href="/css/reset.min.css">
+	<link rel="stylesheet" href="/css/variables.min.css">
+	<link rel="stylesheet" href="/css/notification.min.css">
+	<link rel="stylesheet" href="/css/user.min.css">
 
-	<script src="/js/min/notification.min.js" defer></script>
-	<script src="/js/min/user.min.js" defer></script>
+	<script src="/js/notification.min.js" defer></script>
+	<script src="/js/user.min.js" defer></script>
 </head>
 <body>
 	<div class="container">
@@ -22,7 +22,7 @@
 	<div class="splitter"></div>
 	<aside class="sidebar">
 		<div class="user_profile">
-			<img src="/images/png/min/therock.png" alt="User avatar" class="profile_picture">
+			<img src="/images/png/therock.png" alt="User avatar" class="profile_picture">
 			<p><?= htmlspecialchars($_SESSION['username']) ?></p>
 		</div>
 		<div class="buttons">
