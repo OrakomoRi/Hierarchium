@@ -24,12 +24,12 @@ The project was carried out according to [the terms of reference](https://github
 ```sh
 php -S localhost:3000 -t public
 ```
-3. Open your browser and go to http://localhost:8000.
+3. Open your browser and go to http://localhost:3000.
 
 ### Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/OrakomoRi/Hierarchium.git
 ```
 
 
