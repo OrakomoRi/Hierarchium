@@ -8,6 +8,8 @@ This project is a PHP-based web application that allows users to register, authe
 
 The project was carried out according to [the terms of reference](https://github.com/deepex/sok-task).
 
+A [video preview](https://youtu.be/NcUw6JoqPdY) of the project.
+
 ## Built With
 
 - [PHP](https://www.php.net/)
@@ -31,7 +33,6 @@ php -S localhost:3000 -t public
 ```sh
 git clone https://github.com/OrakomoRi/Hierarchium.git
 ```
-
 
 ## License
 
